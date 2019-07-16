@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ToyBrick_Example' do
+  pod 'ToyBrick', :path => '../'
+
+  target 'ToyBrick_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
